@@ -1,0 +1,1 @@
+alter table item add column price decimal(10, 3) not null;

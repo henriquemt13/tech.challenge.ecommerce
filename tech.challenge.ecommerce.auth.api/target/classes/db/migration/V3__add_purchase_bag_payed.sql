@@ -1,0 +1,1 @@
+alter table purchase_bag add column payed boolean not null default false;

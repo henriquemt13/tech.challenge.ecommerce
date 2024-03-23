@@ -1,0 +1,29 @@
+
+spring:
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl: none
+      show-sql: true
+  sql:
+    init:
+      platform: postgresql
+  datasource:
+    url: jdbc:postgresql://${DB_SERVER:localhost}:${DB_PORT:5432}/${POSTGRES_DB:postgres}?stringtype=unspecified
+    username: ${POSTGRES_USER:postgres}
+    password: ${POSTGRES_PASSWORD:password}
+    driverClassName: org.postgresql.Driver
+    connectionTimeout: 30000
+    jpaTransactionManagerTimeout: 120
+    hikari:
+      connectionTimeout: 20000
+      maximumPoolSize: 5
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+
+auth:
+  url: ${AUTH_URL:localhost}:${AUTH_PORT:8080}
+server:
+  port: ${PORT:8083}
