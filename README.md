@@ -21,12 +21,6 @@ Henrqiue Estevam de Matos
 
 ### Introdução - Desenvolvimento, Arquitetura e Entidades
 
-Seguindo os requisitos do PDF  disponibilizado contendo as regras do Hackaton, 
-o projeto foi desenvolvido com o intuito mostrar o conhecimento aprendido a respeito 
-da arquitetura de microsserviços, da implementação de testes unitários e principalmente 
-o uso de codificação limpa. Vale ressaltar que o projeto foi totalmente desenvolvido
-em inglês.
-
 Seguindo os requisitos do Tech Challenge da Fase 5 disponibilizados no 
 portal do aluno da FIAP, este projeto foi desenvolvido com o intuito de
 mostrar o conhecimento aprendido a respeito da aruqitetura de microsserviços,
